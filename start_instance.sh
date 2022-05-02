@@ -122,7 +122,7 @@ set_perms() {
 
 main() 
 {
-   update_hosts
+   # update_hosts
    enable_long_polling $*
    set_mdc_api_token $*
    set_aws_iot_region $*
